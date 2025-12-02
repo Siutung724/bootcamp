@@ -37,6 +37,7 @@ public class DemoPrintive {
     // reassign value k
     h = 'k';
     // ! sysout + Enter (VSCode)
+    System.out.println(h); //k
 
     h ='你';
     System.out.println(h); // 你
@@ -64,7 +65,7 @@ public class DemoPrintive {
     // Short s2 = 32768;
     Short s3 = -32768; //ok
 
-    // ! In real lift, by default we use int for integer.
+    // ! In real life, by default we use int for integer.
     int i1 = 2_100_000_000;
     // int i2 = 2_200_000_000;
 
@@ -82,19 +83,20 @@ public class DemoPrintive {
     double d1 = 3.5;
     // float f1 = d1; // unsafe
 
-
     // ! 3.5f is a float value
-
-     
-      
-       
-        
     // ! 3.5 is a double value
     // ! 3.5d is a double value
     // Assign float value into float box
     float f2 = 3.5f;
     // Assign float value into double box
-    double 
+    double d2 = 3.5f;
+
+    // Declaration
+    int j;
+    // System.out.println(j); // ! You cannot read the box without assigning value (Compile time)
+    // Assign
+    j = 10;
+    System.out.println(j); //10
 
 
   }
