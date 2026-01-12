@@ -1,4 +1,8 @@
-public class DemoPrintive {
+// byte, short, int, long
+// float, double
+// char, boolean
+
+public class DemoPrimtive {
   public static void main(String[]args){
     // integer
 
@@ -98,7 +102,7 @@ public class DemoPrintive {
     j = 10;
     System.out.println(j); //10
 
-
+    char c2 = ''; // ok
   }
 }
 
